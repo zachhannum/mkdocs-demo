@@ -9,11 +9,11 @@
 
 # This setting is required, and should be a string that is 
 # used as the main title for the project documentation
-site_name: My Docs
+site_name: MkDocs Demo 
 
 # The canonical URL of the site
 # adds a link tag to the generated HTML header
-site_url:  http://www.example.com
+site_url:  http://www.mkdocsdemo.wiki
 
 # This will provide a link to the repository in the menu bar
 repo_name: 'Github'

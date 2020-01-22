@@ -1,3 +1,0 @@
-# Autolinks Plugin for MkDocs
-
-
