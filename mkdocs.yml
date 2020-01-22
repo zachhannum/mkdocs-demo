@@ -1,0 +1,101 @@
+# MkDocs.yml
+# The YAML configuration file defines the settings
+# for the entire site, including where pages are found, layout, markdown extensions,
+# plugins, additional css and javascript, and much more
+#
+# The configuration parameters listed below are some examples and explainations of
+# what can be set, but is not all-encompassing. Please see the MkDocs online user
+# guide for a full breakdown of configuration
+
+# This setting is required, and should be a string that is 
+# used as the main title for the project documentation
+site_name: My Docs
+
+# The canonical URL of the site
+# adds a link tag to the generated HTML header
+site_url:  http://www.example.com
+
+# This will provide a link to the repository in the menu bar
+repo_name: 'Github'
+
+# This should be set to the link to the online repository that contains the site,
+# most likely on Bitbucket
+repo_url: https://github.com/midnightprioriem/mkdocs-demo
+
+# This should be the relative path from repo_url to the docs folder
+# This parameter is used by some themes to provide an 'edit' link on each page of the site
+# that takes the user to the markdown source on the repository
+edit_uri: docs
+
+# Can be used to add a meta tag to the HTML header
+site_description: 'An MkDocs demo site' 
+
+# Can be used to add a meta tag to the HTML header
+site_author: 'Zach Hannum'
+
+# Sets copyright information to be included in the documentation by the theme
+copyright: null
+
+# Sets the theme and theme configuration for the site
+# See https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes for a list of themes
+# that can be installed.
+theme: 
+        # Name of the theme
+        name: material
+        # Directory containing theme customizations
+        custom_dir: theme_customizations/
+
+# MkDocs uses the Python Markdown library to translate the markdown pages into HTML
+# this configuration parameter allows for Python Markdown extensions to be added that
+# customize how the markdown is formatted
+markdown_extensions:
+        - extra
+        - admonition 
+        - codehilite
+        
+# MkDocs supports plugins written in Python to extend the functionality of the site
+# This parameter contains a list of the MkDocs plugins to add to the site
+plugins:
+        - search
+        - vim-md-tags
+        - autolinks
+        - toc-sidebar
+        - tooltipster-links
+# Directory containing the markdown source files for the site
+# By default this is set to docs, and usually does not need to be set manually
+docs_dir: docs
+
+# Directory where the generated static site is created when building the site
+# By default this is set to site, and usually does not need to be set manually
+site_dir: site
+
+# Extra CSS files to be included by the theme
+# The base path for this is the root of the docs_dir
+extra_css:
+        - css/extra.css
+        - css/tooltipster.bundle.min.css
+        - css/tooltipster-sideTip-shadow.min.css
+
+# Extra javascript files to be included by the theme
+# The base path for this is the root of the docs_dir
+extra_javascript:
+        - js/extra.js
+        - js/tooltipster.bundle.min.js
+
+# Set of additional key value pairs that can will be passed to the template
+# These can be any set of values, as long as it is a valid YAML construct  
+extra:
+        version: 1.0
+
+# This setting controls the style of linking within the site. 
+# The default is true, and is recommended
+use_directory_urls: true
+
+# If set to true, processing will halt when a warning is encountered.
+# The default is false
+strict: false
+
+# Can be used to set google analytics tracking configuration
+google_analytics: null
+
+

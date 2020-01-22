@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+<!-- This extra block is for the mkdocs-tooltipster-links-plugin -->
+{% block extrahead %}
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+                $(document).ready(function() {
+                    $('.link-tooltip').tooltipster({
+		    	theme: 'tooltipster-shadow',
+			maxWidth: 400
+		    });
+                });
+        </script>
+{% endblock %}
