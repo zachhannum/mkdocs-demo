@@ -1,3 +1,3 @@
 # Time
 
-Time is the indefinite continued progress 
+Time is the indefinite continued progress
