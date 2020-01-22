@@ -5,7 +5,7 @@
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <meta content="ie=edge" http-equiv="x-ua-compatible"/>
   <meta content="An MkDocs demo site" name="description"/>
-  <link href="http://www.example.com/" rel="canonical"/>
+  <link href="http://www.mkdocsdemo.wiki/" rel="canonical"/>
   <meta content="Zach Hannum" name="author"/>
   <meta content="Copy to clipboard" name="lang:clipboard.copy"/>
   <meta content="Copied to clipboard" name="lang:clipboard.copied"/>
@@ -19,7 +19,7 @@
   <link href="assets/images/favicon.png" rel="shortcut icon"/>
   <meta content="mkdocs-1.0.4, mkdocs-material-4.6.0" name="generator"/>
   <title>
-   My Docs
+   MkDocs Demo
   </title>
   <link href="assets/stylesheets/application.1b62728e.css" rel="stylesheet"/>
   <script src="assets/javascripts/modernizr.268332fc.js">
@@ -64,7 +64,7 @@
    <nav class="md-header-nav md-grid">
     <div class="md-flex">
      <div class="md-flex__cell md-flex__cell--shrink">
-      <a class="md-header-nav__button md-logo" href="http://www.example.com" title="My Docs">
+      <a class="md-header-nav__button md-logo" href="http://www.mkdocsdemo.wiki" title="MkDocs Demo">
        <i class="md-icon">
         
        </i>
@@ -77,7 +77,7 @@
      <div class="md-flex__cell md-flex__cell--stretch">
       <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
        <span class="md-header-nav__topic">
-        My Docs
+        MkDocs Demo
        </span>
        <span class="md-header-nav__topic">
         Welcome to MkDocs
@@ -139,12 +139,12 @@
        <div class="md-sidebar__inner">
         <nav class="md-nav md-nav--primary" data-md-level="0">
          <label class="md-nav__title md-nav__title--site" for="__drawer">
-          <a class="md-nav__button md-logo" href="http://www.example.com" title="My Docs">
+          <a class="md-nav__button md-logo" href="http://www.mkdocsdemo.wiki" title="MkDocs Demo">
            <i class="md-icon">
             
            </i>
           </a>
-          My Docs
+          MkDocs Demo
          </label>
          <div class="md-nav__source">
           <a class="md-source" data-md-source="github" href="https://github.com/midnightprioriem/mkdocs-demo/" title="Go to repository">
@@ -174,18 +174,18 @@
             </label>
             <ul class="md-nav__list" data-md-scrollfix="">
              <li class="md-nav__item">
-              <a class="md-nav__link" href="#commands">
-               Commands
-              </a>
-             </li>
-             <li class="md-nav__item">
-              <a class="md-nav__link" href="#project-layout">
-               Project layout
-              </a>
-             </li>
-             <li class="md-nav__item">
               <a class="md-nav__link" href="#markdown-demo">
                Markdown Demo
+              </a>
+             </li>
+             <li class="md-nav__item">
+              <a class="md-nav__link" href="#python-markdown-extensions">
+               Python Markdown Extensions
+              </a>
+             </li>
+             <li class="md-nav__item">
+              <a class="md-nav__link" href="#mkdocs-plugins">
+               MkDocs Plugins
               </a>
              </li>
             </ul>
@@ -257,26 +257,34 @@
           <li class="md-nav__item md-nav__item--nested">
            <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" id="nav-4" type="checkbox"/>
            <label class="md-nav__link" for="nav-4">
-            Plugins
+            Extensions
            </label>
            <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
             <label class="md-nav__title" for="nav-4">
+             Extensions
+            </label>
+            <ul class="md-nav__list" data-md-scrollfix="">
+             <li class="md-nav__item">
+              <a class="md-nav__link" href="extensions/markdown_extensions/" title="Python Markdown Extensions">
+               Python Markdown Extensions
+              </a>
+             </li>
+            </ul>
+           </nav>
+          </li>
+          <li class="md-nav__item md-nav__item--nested">
+           <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" id="nav-5" type="checkbox"/>
+           <label class="md-nav__link" for="nav-5">
+            Plugins
+           </label>
+           <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+            <label class="md-nav__title" for="nav-5">
              Plugins
             </label>
             <ul class="md-nav__list" data-md-scrollfix="">
              <li class="md-nav__item">
-              <a class="md-nav__link" href="plugins/mkdocs_autolinks_plugins/" title="Autolinks Plugin for MkDocs">
-               Autolinks Plugin for MkDocs
-              </a>
-             </li>
-             <li class="md-nav__item">
               <a class="md-nav__link" href="plugins/plugins/" title="MkDocs Plugins">
                MkDocs Plugins
-              </a>
-             </li>
-             <li class="md-nav__item">
-              <a class="md-nav__link" href="plugins/vim_md_tags_plugin/" title="Vim Markdown Tags Plugin for MkDocs">
-               Vim Markdown Tags Plugin for MkDocs
               </a>
              </li>
             </ul>
@@ -296,18 +304,18 @@
          </label>
          <ul class="md-nav__list" data-md-scrollfix="">
           <li class="md-nav__item">
-           <a class="md-nav__link" href="#commands">
-            Commands
-           </a>
-          </li>
-          <li class="md-nav__item">
-           <a class="md-nav__link" href="#project-layout">
-            Project layout
-           </a>
-          </li>
-          <li class="md-nav__item">
            <a class="md-nav__link" href="#markdown-demo">
             Markdown Demo
+           </a>
+          </li>
+          <li class="md-nav__item">
+           <a class="md-nav__link" href="#python-markdown-extensions">
+            Python Markdown Extensions
+           </a>
+          </li>
+          <li class="md-nav__item">
+           <a class="md-nav__link" href="#mkdocs-plugins">
+            MkDocs Plugins
            </a>
           </li>
          </ul>
@@ -330,45 +338,17 @@
         </a>
         .
        </p>
-       <h2 id="commands">
-        Commands
-       </h2>
-       <ul>
-        <li>
-         <code>
-          mkdocs new [dir-name]
-         </code>
-         - Create a new project.
-        </li>
-        <li>
-         <code>
-          mkdocs serve
-         </code>
-         - Start the live-reloading docs server.
-        </li>
-        <li>
-         <code>
-          mkdocs build
-         </code>
-         - Build the documentation site.
-        </li>
-        <li>
-         <code>
-          mkdocs help
-         </code>
-         - Print this help message.
-        </li>
-       </ul>
-       <h2 id="project-layout">
-        Project layout
-       </h2>
-       <div class="codehilite">
-        <pre><span></span><span class="err">mkdocs.yml    # The configuration file.</span>
-<span class="err">docs/</span>
-<span class="err">    index.md  # The documentation homepage.</span>
-<span class="err">    ...       # Other markdown pages, images and other files.</span>
-</pre>
-       </div>
+       <p>
+        This site is intended to be a demo site for MkDocs to show what the platform is capable of. There are a number of
+        <a href="https://python-markdown.github.io/extensions">
+         Python Markdown extensions
+        </a>
+        and
+        <a href="https://www.mkdocs.org/user-guide/plugins/">
+         MkDocs Plugins
+        </a>
+        that add a great deal of functionality to the site. The specific extensions and plugins showcased on this site are those that I find most useful. Be aware that there is a plethora of other extensions out there not covered by this site that you may wish to explore!
+       </p>
        <h2 id="markdown-demo">
         Markdown Demo
        </h2>
@@ -376,6 +356,34 @@
         <a class="link-tooltip" data-tooltip-content="#Markdowndemo_tooltip_id" href="markdown/">
          Markdown demo
         </a>
+       </p>
+       <h2 id="python-markdown-extensions">
+        Python Markdown Extensions
+       </h2>
+       <p>
+        MkDocs uses the
+        <a href="https://python-markdown.github.io/">
+         Python-Markdown
+        </a>
+        Python library to parse markdown files into HTML. The library provides an API for extensions to add additional behavior to the parser. See the
+        <a class="link-tooltip" data-tooltip-content="#MarkdownExtensions_tooltip_id" href="extensions/markdown_extensions/">
+         Markdown Extensions
+        </a>
+        page for more info on suggested extensions.
+       </p>
+       <h2 id="mkdocs-plugins">
+        MkDocs Plugins
+       </h2>
+       <p>
+        MkDocs supports adding functionality via plugins. See the
+        <a href="https://www.mkdocs.org/user-guide/plugins/">
+         official MkDocs user guide on plugins
+        </a>
+        for more information. This page is intended to be a list of recommended plugins. See the
+        <a class="link-tooltip" data-tooltip-content="#MkDocsPlugins_tooltip_id" href="plugins/plugins/">
+         MkDocs Plugins
+        </a>
+        page for more info on suggested plugins.
        </p>
       </article>
      </div>
@@ -440,6 +448,34 @@ mollis sed massa vel,
 urna elit, malesuada eget finibus ut, ullamcorper ac tortor. Vestibulum sodales
 pulvinar nisl, pharetra aliquet est. Quisque volutpat erat ac nisi accumsan
 tempor.
+    </p>
+   </div>
+  </div>
+  <div class="tooltip_templates">
+   <div id="MarkdownExtensions_tooltip_id">
+    <h1>
+     Python Markdown Extensions
+    </h1>
+    <p>
+     MkDocs uses the
+     <a href="https://python-markdown.github.io/">
+      Python-Markdown
+     </a>
+     Python library to parse markdown files into HTML. The library provides an API for extensions to add additional behavior to the parser.
+    </p>
+   </div>
+  </div>
+  <div class="tooltip_templates">
+   <div id="MkDocsPlugins_tooltip_id">
+    <h1>
+     MkDocs Plugins
+    </h1>
+    <p>
+     MkDocs supports adding functionality via plugins. See the
+     <a href="https://www.mkdocs.org/user-guide/plugins/">
+      official MkDocs user guide on plugins
+     </a>
+     for more information. This page is intended to be a list of recommended plugins.
     </p>
    </div>
   </div>
