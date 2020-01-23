@@ -1,1 +1,29 @@
-.tooltip_templates { display: none; } /*This is for the mkdocs-tooltipster-plugin*/
+/*
+ * This is file is for the mkdocs-tooltipster-plugin*/
+
+/*Mandatory, from the tooltip installation manual*/
+.tooltip_templates { display: none; } 
+
+
+/*
+ * Additional themeing
+ */
+.tooltipster-box {
+    background: var(--secondaryDark) !important;
+}
+.tooltipster-box p {
+	color: var(--primaryLight);
+	font-size: 1.3em;
+}
+.tooltipster-box h1 {
+	color: var(--primaryLight)
+}
+.tooltipster-box a {
+	pointer-events: none;
+  	cursor: default;
+}
+.tooltipster-arrow {
+    display: none !important;
+}
+
+

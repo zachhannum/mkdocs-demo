@@ -73,6 +73,9 @@ site_dir: site
 # The base path for this is the root of the docs_dir
 extra_css:
         - css/extra.css
+        - css/theme.css
+        - css/material_theme.css
+        - css/toc_sidebar_extra.css
         - css/tooltip_extra.css
         - css/tooltipster.bundle.min.css
         - css/tooltipster-sideTip-shadow.min.css
