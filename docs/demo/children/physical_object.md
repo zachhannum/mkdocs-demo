@@ -1,0 +1,3 @@
+# Physical Object
+
+In common usage, a physical object or physical body (or simply an object or body) is a collection of matter within a defined contiguous boundary in. The boundary must be defined and identified by the properties of the material. The boundary may change over time. The boundary is usually the visible or tangible surface of the object. The matter in the object is constrained (to a greater or lesser degree) to move as one object. The boundary may move in space relative to other objects that it is not attached to (through translation and rotation). An object's boundary may also deform and change over time in other ways.
