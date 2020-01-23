@@ -5,7 +5,7 @@
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <meta content="ie=edge" http-equiv="x-ua-compatible"/>
   <meta content="An MkDocs demo site" name="description"/>
-  <link href="http://www.mkdocsdemo.wiki/plugins/" rel="canonical"/>
+  <link href="http://www.mkdocsdemo.wiki/custom_material_colorscheme/" rel="canonical"/>
   <meta content="Zach Hannum" name="author"/>
   <meta content="Copy to clipboard" name="lang:clipboard.copy"/>
   <meta content="Copied to clipboard" name="lang:clipboard.copied"/>
@@ -19,7 +19,7 @@
   <link href="../assets/images/favicon.png" rel="shortcut icon"/>
   <meta content="mkdocs-1.0.4, mkdocs-material-4.6.0" name="generator"/>
   <title>
-   MkDocs Plugins - MkDocs Demo
+   Using a Custom Colorscheme for MkDocs Material - MkDocs Demo
   </title>
   <link href="../assets/stylesheets/application.1b62728e.css" rel="stylesheet"/>
   <script src="../assets/javascripts/modernizr.268332fc.js">
@@ -61,7 +61,7 @@
   <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
   <label class="md-overlay" data-md-component="overlay" for="__drawer">
   </label>
-  <a class="md-skip" href="#mkdocs-plugins" tabindex="1">
+  <a class="md-skip" href="#using-a-custom-colorscheme-for-mkdocs-material" tabindex="1">
    Skip to content
   </a>
   <header class="md-header" data-md-component="header">
@@ -84,7 +84,7 @@
         MkDocs Demo
        </span>
        <span class="md-header-nav__topic">
-        MkDocs Plugins
+        Using a Custom Colorscheme for MkDocs Material
        </span>
       </div>
      </div>
@@ -169,8 +169,9 @@
             Welcome to MkDocs
            </a>
           </li>
-          <li class="md-nav__item">
-           <a class="md-nav__link" href="../custom_material_colorscheme/" title="Using a Custom Colorscheme for MkDocs Material">
+          <li class="md-nav__item md-nav__item--active">
+           <input class="md-toggle md-nav__toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+           <a class="md-nav__link md-nav__link--active" href="./" title="Using a Custom Colorscheme for MkDocs Material">
             Using a Custom Colorscheme for MkDocs Material
            </a>
           </li>
@@ -184,31 +185,10 @@
             Python Markdown Extensions
            </a>
           </li>
-          <li class="md-nav__item md-nav__item--active">
-           <input class="md-toggle md-nav__toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
-           <label class="md-nav__link md-nav__link--active" for="__toc">
-            MkDocs Plugins
-           </label>
-           <a class="md-nav__link md-nav__link--active" href="./" title="MkDocs Plugins">
+          <li class="md-nav__item">
+           <a class="md-nav__link" href="../plugins/" title="MkDocs Plugins">
             MkDocs Plugins
            </a>
-           <nav class="md-nav md-nav--secondary">
-            <label class="md-nav__title" for="__toc">
-             Table of contents
-            </label>
-            <ul class="md-nav__list" data-md-scrollfix="">
-             <li class="md-nav__item">
-              <a class="md-nav__link" href="#mkdocs-vim-md-tags-plugin">
-               mkdocs-vim-md-tags-plugin
-              </a>
-             </li>
-             <li class="md-nav__item">
-              <a class="md-nav__link" href="#mkdocs-autolinks-plugin">
-               mkdocs-autolinks-plugin
-              </a>
-             </li>
-            </ul>
-           </nav>
           </li>
           <li class="md-nav__item md-nav__item--nested">
            <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" id="nav-6" type="checkbox"/>
@@ -320,55 +300,35 @@
       <div class="md-sidebar__scrollwrap">
        <div class="md-sidebar__inner">
         <nav class="md-nav md-nav--secondary">
-         <label class="md-nav__title" for="__toc">
-          Table of contents
-         </label>
-         <ul class="md-nav__list" data-md-scrollfix="">
-          <li class="md-nav__item">
-           <a class="md-nav__link" href="#mkdocs-vim-md-tags-plugin">
-            mkdocs-vim-md-tags-plugin
-           </a>
-          </li>
-          <li class="md-nav__item">
-           <a class="md-nav__link" href="#mkdocs-autolinks-plugin">
-            mkdocs-autolinks-plugin
-           </a>
-          </li>
-         </ul>
         </nav>
        </div>
       </div>
      </div>
      <div class="md-content">
       <article class="md-content__inner md-typeset">
-       <a class="md-icon md-content__icon" href="https://github.com/midnightprioriem/mkdocs-demo/docs/plugins.md" title="Edit this page">
+       <a class="md-icon md-content__icon" href="https://github.com/midnightprioriem/mkdocs-demo/docs/custom_material_colorscheme.md" title="Edit this page">
         
        </a>
-       <h1 id="mkdocs-plugins">
-        MkDocs Plugins
+       <h1 id="using-a-custom-colorscheme-for-mkdocs-material">
+        Using a Custom Colorscheme for MkDocs Material
        </h1>
        <p>
-        MkDocs supports adding functionality via plugins. See the
-        <a href="https://www.mkdocs.org/user-guide/plugins/">
-         official MkDocs user guide on plugins
+        This demo site is using the
+        <a href="https://github.com/midnightprioriem/mkdocs-material-themes">
+         mkdocs-material-themes
         </a>
-        for more information. This page is intended to be a list of recommended plugins.
+        repository to add a custom colorscheme to the base
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+         MkDocs Material theme
+        </a>
+        .
        </p>
-       <h2 id="mkdocs-vim-md-tags-plugin">
-        <a href="https://github.com/midnightprioriem/mkdocs-vim-md-tags-plugin">
-         mkdocs-vim-md-tags-plugin
-        </a>
-       </h2>
        <p>
-        Creates a vim tag file of all markdown files for autocompleting and navigating through markdown pages.
-       </p>
-       <h2 id="mkdocs-autolinks-plugin">
-        <a href="https://github.com/midnightprioriem/mkdocs-autolinks-plugin">
-         mkdocs-autolinks-plugin
-        </a>
-       </h2>
-       <p>
-        Allows for linking to pages and images within the MkDocs site without provided the entire relative path to the file in your document structure.
+        The current theme being used is
+        <strong>
+         OneDark
+        </strong>
+        .
        </p>
       </article>
      </div>
@@ -377,7 +337,7 @@
    <footer class="md-footer">
     <div class="md-footer-nav">
      <nav class="md-footer-nav__inner md-grid">
-      <a class="md-flex md-footer-nav__link md-footer-nav__link--prev" href="../markdown_extensions/" rel="prev" title="Python Markdown Extensions">
+      <a class="md-flex md-footer-nav__link md-footer-nav__link--prev" href=".." rel="prev" title="Welcome to MkDocs">
        <div class="md-flex__cell md-flex__cell--shrink">
         <i class="md-icon md-icon--arrow-back md-footer-nav__button">
         </i>
@@ -387,17 +347,17 @@
          <span class="md-footer-nav__direction">
           Previous
          </span>
-         Python Markdown Extensions
+         Welcome to MkDocs
         </span>
        </div>
       </a>
-      <a class="md-flex md-footer-nav__link md-footer-nav__link--next" href="../demo/space/" rel="next" title="Space">
+      <a class="md-flex md-footer-nav__link md-footer-nav__link--next" href="../markdown/" rel="next" title="Markdown">
        <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
         <span class="md-flex__ellipsis">
          <span class="md-footer-nav__direction">
           Next
          </span>
-         Space
+         Markdown
         </span>
        </div>
        <div class="md-flex__cell md-flex__cell--shrink">

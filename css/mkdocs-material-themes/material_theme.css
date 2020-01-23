@@ -22,6 +22,10 @@ a {
     opacity: 70%;
 }
 
+a
+{
+	 user-select: text !important;
+}
 
 body {
 	color: var(--primaryLight);
@@ -29,6 +33,11 @@ body {
 
 .md-typeset {
 	font-size: .7rem;
+}
+
+.md-typeset hr
+{
+	border-bottom: .05rem solid var(--primaryLight);
 }
 
 .md-typeset .codehilite,
@@ -49,11 +58,17 @@ body {
 	color: var(--primaryBlue);
 }
 
-a[href$=".md"]
+a[href$=".md"]:not(.md-icon)
 {
-	color: var(--secondaryBlue);
+	color: var(--secondaryRed);
+	border-bottom: 1px dashed var(--secondaryRed);
+	pointer-events: none; 
+	cursor: default; 
 }
-
+a[href$=".md"]:hover:not(.md-icon)
+{
+	color: var(--primaryRed) !important;
+}
 .md-typeset a:active, .md-typeset a:hover {
 	color: var(--secondaryBlue);
 }
@@ -181,4 +196,3 @@ html .md-nav--primary .md-nav__title::before {
 .codehilite:hover .md-clipboard::before, .md-typeset .highlight:hover .md-clipboard::before, pre:hover .md-clipboard::before {
 	color: var(--primaryLight);
 }
-

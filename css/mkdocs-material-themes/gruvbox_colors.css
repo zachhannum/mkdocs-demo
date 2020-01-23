@@ -1,0 +1,21 @@
+/*
+ * gruvbox color scheme
+ */
+:root {
+	--primaryDark: #282828;
+	--secondaryDark: #504945;
+	--primaryLight: #fbf1c7;
+	--secondaryLight: #d5c4a1;
+	--primaryBlue: #458588;
+	--secondaryBlue: #83a598;
+	--primaryRed: #cc241d;
+	--secondaryRed: #fb4934;
+	--primaryGreen: #98971a;
+	--secondaryGreen: #b8bb26;
+	--primaryYellow: #d79921;
+	--secondaryYellow: #fabd2f;
+	--primaryMagenta: #b16286;
+	--secondaryMagenta: #d3869b;
+	--primaryCyan: #689d6a;
+	--secondaryCyan: #8ec07c;
+}

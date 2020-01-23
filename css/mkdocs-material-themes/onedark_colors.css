@@ -1,0 +1,21 @@
+/*
+ * OneDark color scheme
+ */
+:root {
+	--primaryDark: #282C34;
+	--secondaryDark: #454C59;
+	--primaryLight: #CFD7E6;
+	--secondaryLight: #ABB2BF;
+	--primaryBlue: #61AFEF;
+	--secondaryBlue: #69BBFF;
+	--primaryRed: #E06C75;
+	--secondaryRed: #FF7A85;
+	--primaryGreen: #98C379;
+	--secondaryGreen: #B5E890;
+	--primaryYellow: #E5C07B;
+	--secondaryYellow: #FFD68A;
+	--primaryMagenta: #C678DD;
+	--secondaryMagenta: #E48AFF;
+	--primaryCyan: #56B6C2;
+	--secondaryCyan: #66D9E8;
+}
