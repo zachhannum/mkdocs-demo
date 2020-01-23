@@ -2,67 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>http://www.mkdocsdemo.wiki/</loc>
-     <lastmod>2020-01-22</lastmod>
+     <lastmod>2020-01-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://www.mkdocsdemo.wiki/markdown/</loc>
-     <lastmod>2020-01-22</lastmod>
+     <lastmod>2020-01-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>http://www.mkdocsdemo.wiki/markdown_extensions/</loc>
+     <lastmod>2020-01-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>http://www.mkdocsdemo.wiki/plugins/</loc>
+     <lastmod>2020-01-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://www.mkdocsdemo.wiki/demo/energy/</loc>
-     <lastmod>2020-01-22</lastmod>
+     <lastmod>2020-01-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://www.mkdocsdemo.wiki/demo/galaxies/</loc>
-     <lastmod>2020-01-22</lastmod>
+     <lastmod>2020-01-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://www.mkdocsdemo.wiki/demo/matter/</loc>
-     <lastmod>2020-01-22</lastmod>
+     <lastmod>2020-01-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://www.mkdocsdemo.wiki/demo/planets/</loc>
-     <lastmod>2020-01-22</lastmod>
+     <lastmod>2020-01-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://www.mkdocsdemo.wiki/demo/space/</loc>
-     <lastmod>2020-01-22</lastmod>
+     <lastmod>2020-01-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://www.mkdocsdemo.wiki/demo/spacetime/</loc>
-     <lastmod>2020-01-22</lastmod>
+     <lastmod>2020-01-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://www.mkdocsdemo.wiki/demo/stars/</loc>
-     <lastmod>2020-01-22</lastmod>
+     <lastmod>2020-01-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://www.mkdocsdemo.wiki/demo/time/</loc>
-     <lastmod>2020-01-22</lastmod>
+     <lastmod>2020-01-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://www.mkdocsdemo.wiki/demo/universe/</loc>
-     <lastmod>2020-01-22</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>http://www.mkdocsdemo.wiki/extensions/markdown_extensions/</loc>
-     <lastmod>2020-01-22</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>http://www.mkdocsdemo.wiki/plugins/plugins/</loc>
-     <lastmod>2020-01-22</lastmod>
+     <lastmod>2020-01-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>

@@ -1,0 +1,119 @@
+/*
+ * This file is additional customizations for
+ * the toc-sidebar plugin. Note that this plugin,
+ * and by extension this css file, only works with
+ * the material theme for MkDocs
+ */
+
+.md-sidebar--secondary[data-md-component="toc"]
+{
+	/*width: 16rem;*/
+	/*margin-left: 67rem;*/
+}
+
+/* Makes the sidebar slightly bigger than the default width */
+@media only screen and (min-width: 60em)
+{
+	.md-sidebar--secondary {
+		width: 18rem !important;
+	}
+
+	.md-content {
+		margin-right: 18rem !important;
+	}
+}
+
+/* Displays the sidebar above the main content when too small
+ * to show on the right side of the page. This differs from
+ * the default behavior which simply hides the toc sidebar
+ */
+@media only screen and (max-width: 60em)
+{
+	.md-sidebar--secondary {
+		display: block;
+		position: relative;
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media only screen and (max-width: 30em)
+{
+	.md-sidebar--secondary {
+		display: block;
+		position: relative;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+/* Prevents the scrollbar from being shown */
+.md-sidebar__scrollwrap::-webkit-scrollbar {
+	display: none;
+}
+
+/* Adds a material style "card" background to the sidebar contents */
+.sidebar {
+	background-color: var(--secondaryDark);
+	padding: 20px;
+	border-radius: 15px;
+	margin: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, .3);
+}
+
+/* 
+ * Formatting for tables inside the sidebar, which works for displaying
+ * two column tables for wiki entries in the form of "property: value"
+ */
+.sidebar table {
+	width: calc(100% - 40px);
+	margin-left:20px;
+	margin-right: 20px;
+}
+.sidebar td {
+	font-size: 1.25em;
+	padding-top: 1em;
+}
+.sidebar td:first-child {
+	font-weight: bold;
+}
+.sidebar td:last-child {
+	text-align: right;
+}
+
+/* 
+ * Adds coloring to links inside the sidebar
+ * Note that this requires the theme colors inside theme.css
+ * The values here could be replaced with hardcoded colors
+ */
+.sidebar a {
+	color: var(--primaryBlue);
+}
+.sidebar a:hover {
+	color: var(--secondaryBlue);
+}
+
+/* 
+ * Assuming an image is the first thing displayed in the sidebar content,
+ * this styles the image to look like a material card.
+ * No guarantees for what this will do to images that aren't first in the content
+ */
+.sidebar img {
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	margin: -20px;
+	margin-top: -30px;
+	margin-bottom: 0px;
+	display: block;
+	width: calc(100% + 40px);
+}
+
+/* Scaling text content in the sidebar */
+.sidebar h2 {
+	font-size: 2em;
+}
+.sidebar p {
+	font-size: 1.25em;
+}
+
