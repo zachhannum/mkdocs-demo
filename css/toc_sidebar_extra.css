@@ -15,11 +15,11 @@
 @media only screen and (min-width: 60em)
 {
 	.md-sidebar--secondary {
-		width: 18rem !important;
+		width: 15rem !important;
 	}
 
 	.md-content {
-		margin-right: 18rem !important;
+		margin-right: 15rem !important;
 	}
 }
 

@@ -1,0 +1,184 @@
+/*
+ * MkDocs Material Custom Theme
+ *
+ * This CSS is for theming the MkDocs Material theme
+ * It utilizes the CSS vars set in theme.css
+ *
+ */
+
+a {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.md-content {
+	background-color: var(--primaryDark); 
+}
+
+.md-typeset blockquote {
+    padding-left: .6rem;
+    border-left: .2rem solid var(--primaryLight);
+    color: var(--primaryLight);
+    opacity: 70%;
+}
+
+
+body {
+	color: var(--primaryLight);
+}
+
+.md-typeset {
+	font-size: .7rem;
+}
+
+.md-typeset .codehilite,
+.md-typeset .highlight {
+	background-color: var(--secondaryDark);
+}
+
+.md-typeset code {
+	box-shadow: 0em 0 0 hsla(0,0%,0%,0),0em 0 0 hsla(0,0%,0%,0);
+}
+
+.md-typeset code, .md-typeset pre {
+	background-color: var(--secondaryDark);
+	color: var(--primaryLight);
+}
+
+.md-typeset a {
+	color: var(--primaryBlue);
+}
+
+a[href$=".md"]
+{
+	color: var(--secondaryBlue);
+}
+
+.md-typeset a:active, .md-typeset a:hover {
+	color: var(--secondaryBlue);
+}
+
+.md-main {
+	background-color: var(--primaryDark);
+}
+
+.md-typeset h1 {
+	color: var(--primaryLight);
+}
+
+.md-header {
+	background-color: var(--secondaryDark);
+	color: var(--primaryLight);
+}
+
+.md-typeset .md-content__icon {
+	color: var(--primaryLight);
+}
+
+.md-nav__link[data-md-state="blur"] {
+	color: var(--secondaryLight);
+}
+
+.md-nav__link:focus, .md-nav__link:hover {
+	color: var(--primaryBlue);
+}
+
+.md-nav__link--active, .md-nav__link:active {
+	color: var(--primaryBlue);
+}
+
+.md-footer-nav {
+	color: var(--primaryLight);
+	background-color: var(--primaryDark);
+}
+
+.md-footer-meta {
+	background-color: var(--primaryDark);
+	color: var(--primaryLight);
+}
+
+.md-search__input {
+	color: var(--primaryLight);
+	background-color: var(--primaryDark);
+}
+
+@media only screen and (max-width:59.9375em) {
+	.md-search__overlay {
+		background-color: var(--primaryDark);
+	}
+}
+
+[data-md-toggle=search]:checked~.md-header .md-search__input {
+	background-color: var(--primaryDark);
+	color: var(--primaryLight);
+}
+
+[data-md-toggle="search"]:checked ~ .md-header .md-search__input + .md-search__icon, [data-md-toggle="search"]:checked ~ .md-header .md-search__input::placeholder {
+	color: var(--primaryLight);
+}
+
+.md-search__input ~ .md-search__icon {
+	color: var(--primaryLight);
+}
+
+.md-search-result__meta {
+	color: var(--primaryLight);
+	background-color: var(--primaryDark);
+}
+
+.md-search-result__list {
+	color: var(--primaryLight);
+	background-color: var(--primaryDark);
+}
+
+.md-search-result__teaser {
+	color: var(--primaryLight);
+}
+
+.md-search-result__article--document::before {
+	color: var(--primaryLight);
+}
+
+.md-search-result__link:hover, .md-search-result__link[data-md-state="active"] {
+	background-color: var(--secondaryDark)
+}
+
+.md-search__scrollwrap {
+	background-color: var(--primaryDark)
+}
+
+html .md-nav--primary .md-nav__title ~ .md-nav__list {
+	background-color: var(--primaryDark);
+}
+
+html .md-nav--primary .md-nav__title {
+	background-color: var(--primaryDark);
+	color: var(--primaryLight);
+}
+
+html .md-nav--primary .md-nav__title::before {
+	color: var(--primaryLight);
+}
+@media only screen and (max-width:76.1875em) {
+	.md-nav {
+		background-color: var(--primaryDark);
+	}
+}
+
+.codehilite .gd, .md-typeset .highlight .gd {
+	background-color: #00000000;
+}
+
+.codehilite .gi, .md-typeset .highlight .gi {
+	background-color: #00000000;
+}
+
+.md-clipboard::before {
+	color: var(--primaryDark);
+	
+}
+
+.codehilite:hover .md-clipboard::before, .md-typeset .highlight:hover .md-clipboard::before, pre:hover .md-clipboard::before {
+	color: var(--primaryLight);
+}
+
