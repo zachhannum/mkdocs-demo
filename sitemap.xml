@@ -21,47 +21,77 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://www.mkdocsdemo.wiki/demo/energy/</loc>
-     <lastmod>2020-01-23</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>http://www.mkdocsdemo.wiki/demo/galaxies/</loc>
-     <lastmod>2020-01-23</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>http://www.mkdocsdemo.wiki/demo/matter/</loc>
-     <lastmod>2020-01-23</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>http://www.mkdocsdemo.wiki/demo/planets/</loc>
-     <lastmod>2020-01-23</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
      <loc>http://www.mkdocsdemo.wiki/demo/space/</loc>
      <lastmod>2020-01-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://www.mkdocsdemo.wiki/demo/spacetime/</loc>
+     <loc>http://www.mkdocsdemo.wiki/demo/children/continuum/</loc>
      <lastmod>2020-01-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://www.mkdocsdemo.wiki/demo/stars/</loc>
+     <loc>http://www.mkdocsdemo.wiki/demo/children/dimension/</loc>
      <lastmod>2020-01-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://www.mkdocsdemo.wiki/demo/time/</loc>
+     <loc>http://www.mkdocsdemo.wiki/demo/children/energy/</loc>
      <lastmod>2020-01-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://www.mkdocsdemo.wiki/demo/universe/</loc>
+     <loc>http://www.mkdocsdemo.wiki/demo/children/galaxies/</loc>
+     <lastmod>2020-01-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>http://www.mkdocsdemo.wiki/demo/children/matter/</loc>
+     <lastmod>2020-01-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>http://www.mkdocsdemo.wiki/demo/children/orientation_geometry/</loc>
+     <lastmod>2020-01-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>http://www.mkdocsdemo.wiki/demo/children/physical_object/</loc>
+     <lastmod>2020-01-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>http://www.mkdocsdemo.wiki/demo/children/physics/</loc>
+     <lastmod>2020-01-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>http://www.mkdocsdemo.wiki/demo/children/planets/</loc>
+     <lastmod>2020-01-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>http://www.mkdocsdemo.wiki/demo/children/position_geometry/</loc>
+     <lastmod>2020-01-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>http://www.mkdocsdemo.wiki/demo/children/spacetime/</loc>
+     <lastmod>2020-01-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>http://www.mkdocsdemo.wiki/demo/children/stars/</loc>
+     <lastmod>2020-01-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>http://www.mkdocsdemo.wiki/demo/children/time/</loc>
+     <lastmod>2020-01-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>http://www.mkdocsdemo.wiki/demo/children/universe/</loc>
      <lastmod>2020-01-23</lastmod>
      <changefreq>daily</changefreq>
     </url>

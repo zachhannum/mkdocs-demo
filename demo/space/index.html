@@ -194,51 +194,123 @@
              Demo
             </label>
             <ul class="md-nav__list" data-md-scrollfix="">
-             <li class="md-nav__item">
-              <a class="md-nav__link" href="../energy/" title="Energy">
-               Energy
-              </a>
-             </li>
-             <li class="md-nav__item">
-              <a class="md-nav__link" href="../galaxies/" title="Galaxies">
-               Galaxies
-              </a>
-             </li>
-             <li class="md-nav__item">
-              <a class="md-nav__link" href="../matter/" title="Matter">
-               Matter
-              </a>
-             </li>
-             <li class="md-nav__item">
-              <a class="md-nav__link" href="../planets/" title="Planets">
-               Planets
-              </a>
-             </li>
              <li class="md-nav__item md-nav__item--active">
               <input class="md-toggle md-nav__toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+              <label class="md-nav__link md-nav__link--active" for="__toc">
+               Space
+              </label>
               <a class="md-nav__link md-nav__link--active" href="./" title="Space">
                Space
               </a>
+              <nav class="md-nav md-nav--secondary">
+               <label class="md-nav__title" for="__toc">
+                Table of contents
+               </label>
+               <ul class="md-nav__list" data-md-scrollfix="">
+                <li class="md-nav__item">
+                 <a class="md-nav__link" href="#mathematics">
+                  Mathematics
+                 </a>
+                </li>
+                <li class="md-nav__item">
+                 <a class="md-nav__link" href="#physics">
+                  Physics
+                 </a>
+                 <nav class="md-nav">
+                  <ul class="md-nav__list">
+                   <li class="md-nav__item">
+                    <a class="md-nav__link" href="#relativity">
+                     Relativity
+                    </a>
+                   </li>
+                  </ul>
+                 </nav>
+                </li>
+               </ul>
+              </nav>
              </li>
-             <li class="md-nav__item">
-              <a class="md-nav__link" href="../spacetime/" title="Spacetime">
-               Spacetime
-              </a>
-             </li>
-             <li class="md-nav__item">
-              <a class="md-nav__link" href="../stars/" title="Stars">
-               Stars
-              </a>
-             </li>
-             <li class="md-nav__item">
-              <a class="md-nav__link" href="../time/" title="Time">
-               Time
-              </a>
-             </li>
-             <li class="md-nav__item">
-              <a class="md-nav__link" href="../universe/" title="Universe">
-               Universe
-              </a>
+             <li class="md-nav__item md-nav__item--nested">
+              <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5-2" id="nav-5-2" type="checkbox"/>
+              <label class="md-nav__link" for="nav-5-2">
+               Children
+              </label>
+              <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+               <label class="md-nav__title" for="nav-5-2">
+                Children
+               </label>
+               <ul class="md-nav__list" data-md-scrollfix="">
+                <li class="md-nav__item">
+                 <a class="md-nav__link" href="../children/continuum/" title="Continuum (measurement)">
+                  Continuum (measurement)
+                 </a>
+                </li>
+                <li class="md-nav__item">
+                 <a class="md-nav__link" href="../children/dimension/" title="Dimension">
+                  Dimension
+                 </a>
+                </li>
+                <li class="md-nav__item">
+                 <a class="md-nav__link" href="../children/energy/" title="Energy">
+                  Energy
+                 </a>
+                </li>
+                <li class="md-nav__item">
+                 <a class="md-nav__link" href="../children/galaxies/" title="Galaxy">
+                  Galaxy
+                 </a>
+                </li>
+                <li class="md-nav__item">
+                 <a class="md-nav__link" href="../children/matter/" title="Matter">
+                  Matter
+                 </a>
+                </li>
+                <li class="md-nav__item">
+                 <a class="md-nav__link" href="../children/orientation_geometry/" title="Orientation (geometry)">
+                  Orientation (geometry)
+                 </a>
+                </li>
+                <li class="md-nav__item">
+                 <a class="md-nav__link" href="../children/physical_object/" title="Physical Object">
+                  Physical Object
+                 </a>
+                </li>
+                <li class="md-nav__item">
+                 <a class="md-nav__link" href="../children/physics/" title="Physics">
+                  Physics
+                 </a>
+                </li>
+                <li class="md-nav__item">
+                 <a class="md-nav__link" href="../children/planets/" title="Planet">
+                  Planet
+                 </a>
+                </li>
+                <li class="md-nav__item">
+                 <a class="md-nav__link" href="../children/position_geometry/" title="Position (geometry)">
+                  Position (geometry)
+                 </a>
+                </li>
+                <li class="md-nav__item">
+                 <a class="md-nav__link" href="../children/spacetime/" title="Spacetime">
+                  Spacetime
+                 </a>
+                </li>
+                <li class="md-nav__item">
+                 <a class="md-nav__link" href="../children/stars/" title="Star">
+                  Star
+                 </a>
+                </li>
+                <li class="md-nav__item">
+                 <a class="md-nav__link" href="../children/time/" title="Time">
+                  Time
+                 </a>
+                </li>
+                <li class="md-nav__item">
+                 <a class="md-nav__link" href="../children/universe/" title="Universe">
+                  Universe
+                 </a>
+                </li>
+               </ul>
+              </nav>
              </li>
             </ul>
            </nav>
@@ -258,6 +330,30 @@
        </div>
        <div class="md-sidebar__inner">
         <nav class="md-nav md-nav--secondary">
+         <label class="md-nav__title" for="__toc">
+          Table of contents
+         </label>
+         <ul class="md-nav__list" data-md-scrollfix="">
+          <li class="md-nav__item">
+           <a class="md-nav__link" href="#mathematics">
+            Mathematics
+           </a>
+          </li>
+          <li class="md-nav__item">
+           <a class="md-nav__link" href="#physics">
+            Physics
+           </a>
+           <nav class="md-nav">
+            <ul class="md-nav__list">
+             <li class="md-nav__item">
+              <a class="md-nav__link" href="#relativity">
+               Relativity
+              </a>
+             </li>
+            </ul>
+           </nav>
+          </li>
+         </ul>
         </nav>
        </div>
       </div>
@@ -271,43 +367,88 @@
         Space
        </h1>
        <p>
-        Space is the boundless three-dimensional extent in which
-        <a href="physical_object.md">
+        <strong>
+         Space
+        </strong>
+        is the boundless three-dimensional extent in which
+        <a class="link-tooltip" data-tooltip-content="#objects_tooltip_id" href="../children/physical_object/">
          objects
         </a>
         and events have relative
-        <a href="position_geometry.md">
+        <a class="link-tooltip" data-tooltip-content="#position_tooltip_id" href="../children/position_geometry/">
          position
         </a>
         and
-        <a href="orientation_geometry">
+        <a class="link-tooltip" data-tooltip-content="#direction_tooltip_id" href="../children/orientation_geometry/">
          direction
         </a>
         . Physical space is often conceived in three
-        <a href="dimension.md">
+        <a class="link-tooltip" data-tooltip-content="#lineardimensions_tooltip_id" href="../children/dimension/">
          linear dimensions
         </a>
         , although modern
-        <a href="physics.md">
+        <a class="link-tooltip" data-tooltip-content="#physicists_tooltip_id" href="../children/physics/">
          physicists
         </a>
         usually consider it, with
-        <a class="link-tooltip" data-tooltip-content="#time_tooltip_id" href="../time/">
+        <a class="link-tooltip" data-tooltip-content="#time_tooltip_id" href="../children/time/">
          time
         </a>
         , to be part of a boundless four-dimensional
-        <a href="continuum.md">
+        <a class="link-tooltip" data-tooltip-content="#continuum_tooltip_id" href="../children/continuum/">
          continuum
         </a>
         known as
-        <a class="link-tooltip" data-tooltip-content="#spacetime_tooltip_id" href="../spacetime/">
+        <a class="link-tooltip" data-tooltip-content="#spacetime_tooltip_id" href="../children/spacetime/">
          spacetime
         </a>
         . The concept of space is considered to be of fundamental importance to an understanding of the physical
-        <a class="link-tooltip" data-tooltip-content="#universe_tooltip_id" href="../universe/">
+        <a class="link-tooltip" data-tooltip-content="#universe_tooltip_id" href="../children/universe/">
          universe
         </a>
         .
+       </p>
+       <h2 id="mathematics">
+        Mathematics
+       </h2>
+       <p>
+        In modern mathematics spaces are defined as sets with some added structure. They are frequently described as different types of manifolds, which are spaces that locally approximate to Euclidean space, and where the properties are defined largely on local connectedness of points that lie on the manifold. There are however, many diverse mathematical objects that are called spaces. For example, vector spaces such as function spaces may have infinite numbers of independent dimensions and a notion of distance very different from Euclidean space, and topological spaces replace the concept of distance with a more abstract idea of nearness.
+       </p>
+       <h2 id="physics">
+        Physics
+       </h2>
+       <p>
+        Space is one of the few fundamental quantities in physics, meaning that it cannot be defined via other quantities because nothing more fundamental is known at the present. On the other hand, it can be related to other fundamental quantities. Thus, similar to other fundamental quantities (like time and mass), space can be explored via measurement and experiment.
+       </p>
+       <p>
+        Today, our three-dimensional space is viewed as embedded in a four-dimensional
+        <a class="link-tooltip" data-tooltip-content="#spacetime_tooltip_id" href="../children/spacetime/">
+         spacetime
+        </a>
+        , called Minkowski space (see special relativity). The idea behind space-time is that time is hyperbolic-orthogonal to each of the three spatial dimensions.
+       </p>
+       <h3 id="relativity">
+        Relativity
+       </h3>
+       <p>
+        Before Einstein's work on relativistic physics, time and space were viewed as independent dimensions. Einstein's discoveries showed that due to relativity of motion our space and time can be mathematically combined into one object–
+        <a class="link-tooltip" data-tooltip-content="#spacetime_tooltip_id" href="../children/spacetime/">
+         spacetime
+        </a>
+        . It turns out that distances in space or in time separately are not invariant with respect to Lorentz coordinate transformations, but distances in Minkowski space-time along space-time intervals are—which justifies the name.
+       </p>
+       <p>
+        In addition, time and space dimensions should not be viewed as exactly equivalent in Minkowski space-time. One can freely move in space but not in time. Thus, time and space coordinates are treated differently both in special relativity (where time is sometimes considered an imaginary coordinate) and in general relativity (where different signs are assigned to time and space components of
+        <a class="link-tooltip" data-tooltip-content="#spacetime_tooltip_id" href="../children/spacetime/">
+         spacetime
+        </a>
+        metric).
+       </p>
+       <p>
+        Furthermore, in Einstein's general theory of relativity, it is postulated that space-time is geometrically distorted – curved – near to gravitationally significant masses.
+       </p>
+       <p>
+        One consequence of this postulate, which follows from the equations of general relativity, is the prediction of moving ripples of space-time, called gravitational waves. While indirect evidence for these waves has been found (in the motions of the Hulse–Taylor binary system, for example) experiments attempting to directly measure these waves are ongoing at the LIGO and Virgo collaborations. LIGO scientists reported the first such direct observation of gravitational waves on 14 September 2015.
        </p>
       </article>
      </div>
@@ -316,7 +457,7 @@
    <footer class="md-footer">
     <div class="md-footer-nav">
      <nav class="md-footer-nav__inner md-grid">
-      <a class="md-flex md-footer-nav__link md-footer-nav__link--prev" href="../planets/" rel="prev" title="Planets">
+      <a class="md-flex md-footer-nav__link md-footer-nav__link--prev" href="../../plugins/" rel="prev" title="MkDocs Plugins">
        <div class="md-flex__cell md-flex__cell--shrink">
         <i class="md-icon md-icon--arrow-back md-footer-nav__button">
         </i>
@@ -326,17 +467,17 @@
          <span class="md-footer-nav__direction">
           Previous
          </span>
-         Planets
+         MkDocs Plugins
         </span>
        </div>
       </a>
-      <a class="md-flex md-footer-nav__link md-footer-nav__link--next" href="../spacetime/" rel="next" title="Spacetime">
+      <a class="md-flex md-footer-nav__link md-footer-nav__link--next" href="../children/continuum/" rel="next" title="Continuum (measurement)">
        <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
         <span class="md-flex__ellipsis">
          <span class="md-footer-nav__direction">
           Next
          </span>
-         Spacetime
+         Continuum (measurement)
         </span>
        </div>
        <div class="md-flex__cell md-flex__cell--shrink">
@@ -372,12 +513,76 @@
   <script src="../../js/tooltipster.bundle.min.js">
   </script>
   <div class="tooltip_templates">
+   <div id="objects_tooltip_id">
+    <h1>
+     Physical Object
+    </h1>
+    <p>
+     In common usage, a physical object or physical body (or simply an object or body) is a collection of matter within a defined contiguous boundary in. The boundary must be defined and identified by the properties of the material. The boundary may change over time. The boundary is usually the visible or tangible surface of the object. The matter in the object is constrained (to a greater or lesser degree) to move as one object. The boundary may move in space relative to other objects that it is not attached to (through translation and rotation). An object's boundary may also deform and change over time in other ways.
+    </p>
+   </div>
+  </div>
+  <div class="tooltip_templates">
+   <div id="position_tooltip_id">
+    <h1>
+     Position (geometry)
+    </h1>
+    <p>
+     In geometry, a position or position vector, also known as location vector or radius vector, is a Euclidean vector that represents the position of a point P in space in relation to an arbitrary reference origin O. Usually denoted x, r, or s, it corresponds to the straight line segment from O to P. In other words, it is the displacement or translation that maps the origin to P
+    </p>
+   </div>
+  </div>
+  <div class="tooltip_templates">
+   <div id="direction_tooltip_id">
+    <h1>
+     Orientation (geometry)
+    </h1>
+    <p>
+     In geometry, the orientation, angular position, attitude, or direction of an object such as a line, plane or rigid body is part of the description of how it is placed in the space it occupies. More specifically, it refers to the imaginary rotation that is needed to move the object from a reference placement to its current placement. A rotation may not be enough to reach the current placement. It may be necessary to add an imaginary translation, called the object's location (or position, or linear position). The location and orientation together fully describe how the object is placed in space. The above-mentioned imaginary rotation and translation may be thought to occur in any order, as the orientation of an object does not change when it translates, and its location does not change when it rotates.
+    </p>
+   </div>
+  </div>
+  <div class="tooltip_templates">
+   <div id="lineardimensions_tooltip_id">
+    <h1>
+     Dimension
+    </h1>
+    <p>
+     In physics and mathematics, the
+     <strong>
+      dimension
+     </strong>
+     of a mathematical space (or object) is informally defined as the minimum number of coordinates needed to specify any point within it.
+    </p>
+   </div>
+  </div>
+  <div class="tooltip_templates">
+   <div id="physicists_tooltip_id">
+    <h1>
+     Physics
+    </h1>
+    <p>
+     Physics (from Ancient Greek: φυσική (ἐπιστήμη), romanized: physikḗ (epistḗmē), lit. 'knowledge of nature', from φύσις phýsis 'nature') is the natural science that studies matter, its motion and behavior through space and time, and the related entities of energy and force. Physics is one of the most fundamental scientific disciplines, and its main goal is to understand how the universe behaves.
+    </p>
+   </div>
+  </div>
+  <div class="tooltip_templates">
    <div id="time_tooltip_id">
     <h1>
      Time
     </h1>
     <p>
-     Time is the indefinite continued progress
+     Time is the indefinite continued progress of existence and events that occur in an apparently irreversible succession from the past, through the present, into the future.
+    </p>
+   </div>
+  </div>
+  <div class="tooltip_templates">
+   <div id="continuum_tooltip_id">
+    <h1>
+     Continuum (measurement)
+    </h1>
+    <p>
+     Continuum theories or models explain variation as involving gradual quantitative transitions without abrupt changes or discontinuities. In contrast, categorical theories or models explain variation using qualitatively different states.
     </p>
    </div>
   </div>
@@ -391,15 +596,7 @@
      <a href="physics.md">
       physics
      </a>
-     , spacetime is any
-     <a href="mathematical_model">
-      mathematical model
-     </a>
-     which fuses the
-     <a href="three_dimensional_space.md">
-      three dimensions of space
-     </a>
-     and the one
+     , spacetime is any mathematical model which fuses the three dimensions of space and the one
      <a href="dimension.md">
       dimension
      </a>
@@ -407,14 +604,7 @@
      <a href="time.md">
       time
      </a>
-     into a single
-     <a href="four_dimensional_space">
-      four-dimensional
-     </a>
-     <a href="manifold.md">
-      manifold
-     </a>
-     .
+     into a single four-dimensional manifold.
     </p>
    </div>
   </div>
@@ -432,6 +622,93 @@
      <a href="time.md">
       time
      </a>
+     , and their contents, including
+     <a href="planets.md">
+      planets
+     </a>
+     ,
+     <a href="stars.md">
+      stars
+     </a>
+     ,
+     <a href="galaxies.md">
+      galaxies
+     </a>
+     , and all other forms of
+     <a href="matter.md">
+      matter
+     </a>
+     and
+     <a href="energy.md">
+      energy
+     </a>
+     .
+    </p>
+   </div>
+  </div>
+  <div class="tooltip_templates">
+   <div id="spacetime_tooltip_id">
+    <h1>
+     Spacetime
+    </h1>
+    <p>
+     In
+     <a href="physics.md">
+      physics
+     </a>
+     , spacetime is any mathematical model which fuses the three dimensions of space and the one
+     <a href="dimension.md">
+      dimension
+     </a>
+     of
+     <a href="time.md">
+      time
+     </a>
+     into a single four-dimensional manifold.
+    </p>
+   </div>
+  </div>
+  <div class="tooltip_templates">
+   <div id="spacetime_tooltip_id">
+    <h1>
+     Spacetime
+    </h1>
+    <p>
+     In
+     <a href="physics.md">
+      physics
+     </a>
+     , spacetime is any mathematical model which fuses the three dimensions of space and the one
+     <a href="dimension.md">
+      dimension
+     </a>
+     of
+     <a href="time.md">
+      time
+     </a>
+     into a single four-dimensional manifold.
+    </p>
+   </div>
+  </div>
+  <div class="tooltip_templates">
+   <div id="spacetime_tooltip_id">
+    <h1>
+     Spacetime
+    </h1>
+    <p>
+     In
+     <a href="physics.md">
+      physics
+     </a>
+     , spacetime is any mathematical model which fuses the three dimensions of space and the one
+     <a href="dimension.md">
+      dimension
+     </a>
+     of
+     <a href="time.md">
+      time
+     </a>
+     into a single four-dimensional manifold.
     </p>
    </div>
   </div>
