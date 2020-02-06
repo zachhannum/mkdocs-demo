@@ -25,7 +25,7 @@ repo_url: https://github.com/midnightprioriem/mkdocs-demo
 # This should be the relative path from repo_url to the docs folder
 # This parameter is used by some themes to provide an 'edit' link on each page of the site
 # that takes the user to the markdown source on the repository
-edit_uri: docs
+edit_uri: edit/master/docs/ 
 
 # Can be used to add a meta tag to the HTML header
 site_description: 'An MkDocs demo site' 
