@@ -52,6 +52,7 @@ markdown_extensions:
         - extra
         - admonition 
         - codehilite
+        - smarty
         
 # MkDocs supports plugins written in Python to extend the functionality of the site
 # This parameter contains a list of the MkDocs plugins to add to the site

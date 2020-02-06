@@ -2,6 +2,10 @@
 
 MkDocs supports adding functionality via plugins. See the [official MkDocs user guide on plugins](https://www.mkdocs.org/user-guide/plugins/) for more information. This page is intended to be a list of recommended plugins.
 
+## Third-party plugins
+
+A maintained list of third-party plugins can be found [here](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins).
+
 ## [mkdocs-vim-md-tags-plugin](https://github.com/midnightprioriem/mkdocs-vim-md-tags-plugin)
 
 Creates a vim tag file of all markdown files for autocompleting and navigating through markdown pages.
